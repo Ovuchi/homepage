@@ -1,0 +1,234 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+   
+}
+
+.container{
+    width: 470px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 10px;    
+}
+
+.nav-bar{
+    width: 440px;
+    border-bottom: 2px solid rgb(56, 53, 53);
+    padding-bottom: 7px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.hamburger, .premium-button{
+    float: right;
+}
+
+.logo{
+    font-size: 34px;
+    margin-top: 20px;  
+}
+
+button{
+    border: 2px solid green;
+    background-color: rgb(33, 225, 33);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.free-signals {
+    text-align: center;
+}
+
+.first-container, .second-container, .third-container{
+    margin: auto;
+    width: 413px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-top: 1px;
+}
+
+.eur-usd{
+    width: 410px;
+    background-color: rgb(109, 206, 109);
+    border: 2px solid green;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 50px;
+    height: 60px;
+}
+
+.flags{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.fi{
+    width: 30px;
+    height: 30px;
+}
+
+.close{
+    display: flex;
+    gap: 10px;
+}
+
+.fullscreen{
+    margin-top: 20px;
+}
+
+.buy{
+    margin: auto;
+}
+
+.buy h2{
+    text-align: center;
+    color: rgb(91, 90, 90);
+}
+
+table{
+    margin: auto;
+    width: 370px;
+    padding: 30px;
+    padding-bottom: 40px;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+td{
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.second-container, .third-container{
+    margin-top: 40px;
+}
+
+.usd-chf{
+    width: 410px;
+    background-color: lightpink;
+    border: 2px solid red;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 50px;
+    height: 60px;
+}
+
+.gbp-usd{
+    width: 410px;
+    background-color: rgb(109, 206, 109);
+    border: 2px solid green;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 50px;
+    height: 60px;
+}
+
+.view-more h4{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.writeup p{
+    text-align: center;
+}
+
+.subscribe-to-premium{
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+    width: 440px;
+    padding: 7px;
+}
+.table table{
+    width: 390px;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+.table table th{
+    border-bottom: 2px solid black;
+}
+
+.table table td{
+    border-bottom: 1px solid gray;
+}
+
+.about-us p{
+    text-align: left;
+    
+}
+
+.about-us{
+    margin: auto;
+    width: 380px;
+}
+
+.about-us p{
+    text-align: left;
+}
+
+.about-us h2{
+    text-align: center;
+}
+
+.footer{
+    background-image: url(spiral-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    color: white;
+}
+
+.footer h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding-bottom: 40px;
+}
